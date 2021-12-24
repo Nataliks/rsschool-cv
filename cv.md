@@ -6,6 +6,7 @@
 * __Phone:__ +375 29 5698511
 * __Email:__ nataliiks@rambler.ru
 * __GitHub:__ Nataliks
+
 --------------------------
 ## About me
 -------------
@@ -18,6 +19,7 @@ I'm active, organized and fast learning. Also I have a good nervous system and c
 + CSS
 + JavaScript (Basics)
 + Git, GitHub
+
 ----------------
 ## Code example
 -------------
@@ -43,6 +45,7 @@ function isDivideBy(number, a, b) {
     * HTML https://ru.code-basics.com/languages/html
     * CSS https://ru.code-basics.com/languages/css
     * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
 ------------
 ## Languages
 ----------------
