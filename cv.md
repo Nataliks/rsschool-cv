@@ -10,7 +10,7 @@
 --------------------------
 ## About me
 -------------
-I'm active, organized and fast learning. Also I have a good nervous system and cold-blooded brain. I think these are my strenghts.
+I'm sociable, active, organized and fast learning. Also I have a good nervous system and cold-blooded brain. I think these are my strengths.
 
 ------------------------
 ## Skills
@@ -24,7 +24,7 @@ I'm active, organized and fast learning. Also I have a good nervous system and c
 ## Code example
 -------------
 
-__Task from CODEWARS:__ Create the functionisDivideBy (or is_divide_by) to check if an integer number is divisible by both integers a and b.
+__Task from CODEWARS:__ Create the function isDivideBy (or is_divide_by) to check if an integer number is divisible by both integers a and b.
 ```
 function isDivideBy(number, a, b) {
   
