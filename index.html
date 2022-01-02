@@ -1,12 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <p>My cv</p>
+
+<body> 
+  <header class="header">
+    <div class= "header-container">                   
+      <img class="header-img" src="photo.jpg" alt="My photo">                 
+      <div class="header-content">
+        <div class="header-info">
+          <h1 class="header-info-title">Nataliya Lankevich</h1>
+          <h2 class="header-info-subtitle"> Future front-end developer</h2>                    
+        </div> 
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#code-example" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Language</a></li>
+          </ul>
+        </nav> 
+      </div>        
+    </div>        
+  </header> 
+
+
+  <div class="main-container">   
+    <aside>
+      <section id="contacts">
+        <div class="section-aside">
+          <h2>Contacts</h2>
+        </div>
+        <ul>
+          <li>Location: Minsk, Belarus</li>
+          <li>Phone: +375 29 5698151</li>
+          <li>Email: nataliiks@rambler.ru</li>
+          <li>GitHub: Nataliks</li>
+        </ul>
+      </section>
+      <section id="skills">
+        <div class="section-aside">
+          <h2>Skills</h2>
+        </div>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript (Basics)</li>
+          <li>Git, GitHub</li>
+          <li>VS Code</li>
+        </ul>
+      </section>
+      <section id="languages">
+        <div class="section-aside">
+          <h2>Languages</h2>
+        </div>
+        <ul>
+          <li>English: A2</li>
+          <li>Russian: Native</li>
+        </ul>
+      </section>
+    </aside>
+    
+    <main class="main">       
+      <section id="about-me">
+        <h2>About me</h2>
+        <div class="section-main">
+          <p>I'm sociable, active, organized and fast learning. Also I have a good nervous system and cold-blooded brain. I think these are my strengths. </p>
+        </div>
+      </section>
+      <section id="code-example">
+        <h2>Code example</h2>
+        <div class="section-main">
+          <p>Task from CODEWARS: Create the function isDivideBy (or is_divide_by) to check if an integer number is divisible by both integers a and b.</p>
+        </div>
+        <div class="code">
+          <pre>
+            <code>
+          function isDivideBy(number, a, b) {  
+               if ((number % a == 0) && (number % b == 0)) {
+                  return true;
+              } else {
+                  return false;
+              }
+              }
+            </code>
+          </pre>
+        </div>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <div class="section-main">
+          <ul>
+            <li>Belarusian National Technical University</li>
+            <li>Courses:
+              <ul>
+                <li>JavaScript on  learnjavascript.ru</li>
+                <li>HTML on code-basics.com</li>
+                <li>CSS on code-basics.com</li>
+                <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+              </ul>   
+            </li>                 
+          </ul>
+        </div>
+      </section>            
+    </main>
+  </div>
+   
+  <footer>       
+    <div class="footer-container">
+      <div class="footer-gitHub">
+        <img src="./assets/svg/github.svg" alt="Logo GitHub" width="50">  
+        <p><a class="footer-logo-git" href="https://github.com/Nataliks">My GitHub</a></p>        
+      </div>
+      <div class="footer-year"> <p>2022</p></div>
+      <div class="footer-logo-rsschool">
+        <a href="https://rs.school/js/">
+          <img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool Logo">
+        </a>
+      </div> 
+    </div>
+  </footer>   
+   
 </body>
 </html>
