@@ -1,53 +1,48 @@
-# Nataliya Lankevich | ![Photo](my_photo.jpg)
-------------------
-## Contacts
+# Nataliya Lankevich | ![Photo](my_photo.jpg) 
+
+Contacts
 ----------------------
 * __Location:__ Minsk, Belarus
 * __Phone:__ +375 29 5698511
 * __Email:__ nataliiks@rambler.ru
 * __GitHub:__ Nataliks
 
---------------------------
+
 ## About me
 -------------
-I'm sociable, active, organized and fast learning. Also I have a good nervous system and cold-blooded brain. I think these are my strengths.
+I'm sociable, active, organized and fast learning. Also I have a good nervous system and cold-blooded brain. I think these are my strengths. I've been started to learn JS since December. It's interesting to me and I really enjoy to see the results of my efforts. I hope to become a professional Front-end developer in the future.
 
-------------------------
-## Skills
--------------
+
+## Skills 
+----------
 + HTML
 + CSS
-+ JavaScript (Basics)
-+ Git, GitHub
++ JavaScript 
++ Git
++ VS Code
 
-----------------
 ## Code example
 -------------
 
-__Task from CODEWARS:__ Create the function isDivideBy (or is_divide_by) to check if an integer number is divisible by both integers a and b.
+__Task from CODEWARS:__  Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number.
 ```
-function isDivideBy(number, a, b) {
-  
-  if ((number % a == 0) && (number % b == 0)) {
-   return true;
-  } else {
-    return false;
-  }
-}
+var countBits = function(n) {
+    let result =  n.toString(2).split('').filter(item => item == 1).length;
+    return result;
+  };
 ```
-------------
+
 
 ## Education
 ------------------
 + __Belarusian National Technical University__
-+ __Courses__
-    * JavaScript https://learn.javascript.ru/ (in progress)
-    * HTML https://ru.code-basics.com/languages/html
-    * CSS https://ru.code-basics.com/languages/css
-    * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
++ __Courses:__
+    * RS School «JavaScript/Front-end. Stage 0» 
+    * RS School «JavaScript/Front-end. Stage 1» (in progress)
 
-------------
+
 ## Languages
 ----------------
-English: A2
++ English: A2
++ Russian: Native
 
