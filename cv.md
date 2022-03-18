@@ -36,7 +36,11 @@ var countBits = function(n) {
 ## Education
 ------------------
 + __Belarusian National Technical University__
+<<<<<<< HEAD
 + __Courses:__
+=======
++ __Courses__
+>>>>>>> rsschool-cv-html
     * RS School «JavaScript/Front-end. Stage 0» 
     * RS School «JavaScript/Front-end. Stage 1» (in progress)
 
