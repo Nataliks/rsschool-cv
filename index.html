@@ -3,130 +3,175 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-  <title>CV</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./assets/svg/star_favourite_17895.ico">
+  <title>Document</title>
 </head>
-
-<body> 
-  <header class="header">
-    <div class= "header-container">                   
-      <img class="header-img" src="photo.jpg" alt="My photo">                 
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="header-img">
+        <img class="header-img-ava" src="./assets/img/photo1.jpg" alt="My photo">  
+      </div>   
       <div class="header-content">
-        <div class="header-info">
-          <h1 class="header-info-title">Nataliya Lankevich</h1>
-          <h2 class="header-info-subtitle"> Future front-end developer</h2>                    
-        </div> 
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
             <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
             <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
             <li class="nav-item"><a href="#code-example" class="nav-link">Code</a></li>
             <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
             <li class="nav-item"><a href="#languages" class="nav-link">Language</a></li>
           </ul>
-        </nav> 
+        </nav>  
+        <h1 class="header-info-title">Nataliya Lankevich</h1>     
+        <h2 class="header-info-subtitle"> Junior front-end developer</h2> 
       </div>        
-    </div>        
-  </header> 
-
-
-  <div class="main-container">   
-    <aside>
-      <section id="contacts">
-        <div class="section-aside">
-          <h2>Contacts</h2>
-        </div>
-        <ul>
-          <li>Location: Minsk, Belarus</li>
-          <li>Phone: +375 29 5698151</li>
-          <li>Email: nataliiks@rambler.ru</li>
-          <li>GitHub: Nataliks</li>
-        </ul>
-      </section>
-      <section id="skills">
-        <div class="section-aside">
-          <h2>Skills</h2>
-        </div>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript (Basics)</li>
-          <li>Git, GitHub</li>
-          <li>VS Code</li>
-        </ul>
-      </section>
-      <section id="languages">
-        <div class="section-aside">
-          <h2>Languages</h2>
-        </div>
-        <ul>
-          <li>English: A2</li>
-          <li>Russian: Native</li>
-        </ul>
-      </section>
-    </aside>
+    </header>
     
-    <main class="main">       
-      <section id="about-me">
-        <h2>About me</h2>
-        <div class="section-main">
-          <p>I'm sociable, active, organized and fast learning. Also I have a good nervous system and cold-blooded brain. I think these are my strengths. </p>
-        </div>
-      </section>
-      <section id="code-example">
-        <h2>Code example</h2>
-        <div class="section-main">
-          <p>Task from CODEWARS: Create the function isDivideBy (or is_divide_by) to check if an integer number is divisible by both integers a and b.</p>
-        </div>
-        <div class="code">
-          <pre>
-            <code>
-          function isDivideBy(number, a, b) {  
-               if ((number % a == 0) && (number % b == 0)) {
-                  return true;
-              } else {
-                  return false;
-              }
-              }
-            </code>
-          </pre>
-        </div>
-      </section>
-      <section id="education">
-        <h2>Education</h2>
-        <div class="section-main">
+    <main>
+      <div class="left-section">
+
+        <section id="contacts" class="section-aside">          
+          <h3>Contacts</h3>          
           <ul>
-            <li>Belarusian National Technical University</li>
-            <li>Courses:
-              <ul>
-                <li>JavaScript on  learnjavascript.ru</li>
-                <li>HTML on code-basics.com</li>
-                <li>CSS on code-basics.com</li>
-                <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-              </ul>   
-            </li>                 
+            <li class="contact-list"><b class="color-text">Location:</b> Minsk, Belarus</li>
+            <li class="contact-list"><b class="color-text">Phone:</b> +375 29 5698151</li>
+            <li class="contact-list"><b class="color-text">Email:</b> nataliiks@rambler.ru</li>
+            <li class="contact-list"><b class="color-text">GitHub:</b> Nataliks</li>
           </ul>
-        </div>
-      </section>            
-    </main>
-  </div>
-   
-  <footer>       
-    <div class="footer-container">
-      <div class="footer-gitHub">
-        <img src="./assets/svg/github.svg" alt="Logo GitHub" width="50">  
-        <p><a class="footer-logo-git" href="https://github.com/Nataliks">My GitHub</a></p>        
+        </section>
+
+        <section id="skills" class="section-aside">          
+          <h3>Skills</h3>
+          <ul>
+            <li class="skills-icon"><svg class="icon">
+              <use xlink:href="sprite.svg#html"></use>
+            </svg>HTML</li>
+            <li class="skills-icon"><svg class="icon">
+              <use xlink:href="sprite.svg#css"></use>
+            </svg>CSS</li>            
+            <li class="skills-icon"><svg class="icon">
+              <use xlink:href="sprite.svg#js"></use>
+            </svg>JavaScript</li>            
+            <li class="skills-icon"><svg class="icon">
+              <use xlink:href="sprite.svg#git"></use>
+            </svg>Git</li>
+            <li class="skills-icon"><svg class="icon">
+              <use xlink:href="sprite.svg#vs"></use>
+            </svg>VS Code</li>
+          </ul>
+        </section>
+
+        <section id="education" class="section-aside">          
+          <h3>Education</h3>
+            <ul>
+              <li class="education-list"> <b class="education-univ">Belarusian National Technical University</b></li>
+              <li class="education-list"> Courses:
+                <ul>
+                  <li class="courses-list"> <b>RS School «JavaScript/Front-end. Stage 0»</b></li>
+                  <li class="courses-list"> RS School «JavaScript/Front-end. Stage 1» (in progress)</li>
+                </ul>   
+              </li>                 
+            </ul>    
+        </section>  
+
+        <section id="languages" class="section-aside">        
+          <h3>Languages</h3>          
+          <ul>
+            <li class="lang"><svg class="icon">
+              <use xlink:href="sprite.svg#globe"></use>
+            </svg>English: A2</li>
+            <li class="lang"><svg class="icon">
+              <use xlink:href="sprite.svg#globe"></use>
+            </svg>Russian: Native</li>
+          </ul>
+        </section>
       </div>
-      <div class="footer-year"> <p>2022</p></div>
-      <div class="footer-logo-rsschool">
-        <a href="https://rs.school/js/">
-          <img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool Logo">
-        </a>
-      </div> 
-    </div>
-  </footer>   
-   
+
+      <div class="right-section">
+
+        <section id="about-me" class="summary-section">
+          <h2>About me</h2>
+          <div class="section-main">
+            <p>I'm sociable, active, organized and fast learning. Also I have a good nervous system and cold-blooded brain. I think these are my strengths. I've been started to learn JS since December. It's interesting to me and I really enjoy to see the results of my efforts. I hope to become a professional Front-end developer in the future. </p>
+          </div>
+        </section>
+
+        <section id="code-example" class="code-section">
+          <fieldset>
+          <legend><h2 class="code-title-section">Code example</h2></legend>
+          <div class="section-main">
+            <p>Task from CODEWARS: Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number.</p>
+          </div>
+          <div class="code">
+            <pre>
+              <code>
+  var countBits = function(n) {
+    let result =  n.toString(2).split('').filter(item => item == 1).length;
+    return result;
+  };
+              </code>
+            </pre>
+          </div>
+        </fieldset>
+        </section>
+
+        <section id="work">
+          <div class="project-section">
+          <h2>Projects</h2>
+          <div class="section-main project-container">
+            <div class="projects">              
+              <img class="projects-item" src="./assets/img/Portfolio.PNG" alt="project-portfolio">
+              <div class="frame">
+                <h4>Portfolio</h4>
+                <p class="frame-link"><a href="https://rolling-scopes-school.github.io/nataliks-JSFEPRESCHOOL/portfolio/#portfolio">View more</a></p>
+              </div>
+            </div>
+            <div class="projects">              
+                <img class="projects-item" src="./assets/img/image-gallery.PNG" alt="project-gallery">
+                <div class="frame">
+                  <h4>Image gallery</h4>
+                  <p class="frame-link"><a href="https://rolling-scopes-school.github.io/nataliks-JSFEPRESCHOOL/image-galery/">View more</a></p>
+                </div>
+            </div>
+            <div class="projects">              
+              <img class="projects-item" src="./assets/img/audio-player.PNG" alt="project-audio-player">
+              <div class="frame">
+                <h4>Audio player</h4>
+                <p class="frame-link"><a href="https://rolling-scopes-school.github.io/nataliks-JSFEPRESCHOOL/audio-player/">View more</a></p>
+              </div>
+            </div>
+            <div class="projects">              
+              <img class="projects-item" src="./assets/img/memory-game.PNG" alt="project-game">
+              <div class="frame">
+                <h4>Memory game</h4>
+                <p class="frame-link"><a href="https://rolling-scopes-school.github.io/nataliks-JSFEPRESCHOOL/memory-game/">View more</a></p>
+              </div>
+            </div>            
+          </div>
+        </div>
+        </section>       
+               
+      </div>
+    </main>
+    
+    <footer>       
+      <div class="footer-container">
+        <div class="footer-gitHub">
+          <img src="./assets/svg/github.svg" alt="Logo GitHub" width="50">  
+          <p><a class="footer-logo-git" href="https://github.com/Nataliks">My GitHub</a></p>        
+        </div>
+        <div class="footer-year"> <p>2022</p></div>
+        <div class="footer-logo-rsschool">
+          <a href="https://rs.school/js/">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool Logo">
+          </a>
+        </div> 
+      </div>
+    </footer>   
+  </div>
 </body>
 </html>
